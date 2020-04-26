@@ -58,31 +58,31 @@ public class MainActivity extends AppCompatActivity {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Nghe nhạc";
+            hobbies += "Xem Phim";
         }
         if (cbCafeWithFriends.isChecked()) {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Cafe với bạn bè";
+            hobbies += "Nghe ca nhạc";
         }
         if (cbCook.isChecked()) {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Chơi thể thao";
+            hobbies += "Đi cafe với bạn bè ";
         }
         if (cbWatchFilm.isChecked()) {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Nấu ăn";
+            hobbies += "Ở nhà một mình";
         }
         if (cbAtHomeAlone.isChecked()) {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Xem phim";
+            hobbies += "Vào bếp nấu ăn";
         }
         hobbies+=", ";
         hobbies+=editOtherHobbies.getText().toString().trim();
