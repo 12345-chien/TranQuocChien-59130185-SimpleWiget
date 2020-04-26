@@ -64,25 +64,25 @@ public class MainActivity extends AppCompatActivity {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Đi Cafe với bạn bè";
+            hobbies += "Cafe với bạn bè";
         }
         if (cbCook.isChecked()) {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Vào bếp nấu ăn";
+            hobbies += "Chơi thể thao";
         }
         if (cbWatchFilm.isChecked()) {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Xem phim";
+            hobbies += "Nấu ăn";
         }
         if (cbAtHomeAlone.isChecked()) {
             if (hobbies.length() > 0) {
                 hobbies += ", ";
             }
-            hobbies += "Ở nhà một mình";
+            hobbies += "Xem phim";
         }
         hobbies+=", ";
         hobbies+=editOtherHobbies.getText().toString().trim();
